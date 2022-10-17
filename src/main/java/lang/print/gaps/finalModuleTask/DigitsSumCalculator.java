@@ -8,7 +8,9 @@ public class DigitsSumCalculator {
         int c = b%10;
         int d = (b-c)/10;
         int l = d%10;
-        int k  = d-l;
-        System.out.println(a+b+l+k);
+        int k  = (d-l)/10;
+        System.out.println(a+c+l+k);
     }
+
 }
+
